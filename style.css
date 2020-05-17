@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color:#222;
+    overflow:auto;
+}
+.navbar{
+    background-color: #9900cc;
+    padding: 1.2rem;
+}
+.nav-linkage{
+    color:white;
+    padding:10px;
+    font-size: 1.1em !important;
+}
+.nav-linkage:hover{
+    color:blue;
+    background-color:white;
+}
+.circular--square{
+    border-radius:50%;
+    width:28% !important;
+}
+.carousel-inner img{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+.carousel-caption{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h2{
+    font-size:450%;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size:95%;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width:95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fa-code, .fa-bold, .fa-css3, .fa-cogs{
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding:3rem;
+}
+
+footer{
+    background-color: #660066;
+    color:white;
+    padding-top:2rem;
+}
+hr.light{
+    border-top:1px solid #d5d5d5;
+    width:75%;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a{
+        font-size:4em;
+        padding:2rem;
+    }
+
+}
+@media (max-width: 768px) {
+    .circular--square{
+        width:23% !important;
+    }
+    .carousel-inner img{
+        width:100%;
+        height:auto;
+    }
+    .carousel-caption{
+        top:45%;
+    }
+    .carousel-caption h2{
+        font-size:325% ;
+    }
+    .carousel-caption h3{
+        font-size: 87%;
+
+    }
+    .carousel-caption btn{
+        font-size:83%;
+        padding: 8px 14px;
+    }
+    .display-4{
+        font-size:200%;
+    }
+    .social a{
+        font-size:2.5rem;
+        padding:1.2rem;
+    }
+
+}
+@media (max-width: 576px) {
+    .circular--square{
+        width:17% !important;
+    }
+    .carousel-inner img{
+        width:100%;
+        height:auto;
+    }
+    .carousel-caption{
+        top:40%;
+    }
+    .carousel-caption h2{
+        font-size: 240%;
+    }
+    .carousel-caption h3{
+        font-size: 68%;
+
+    }
+    .carousel-caption btn{
+        font-size:63%;
+        padding:4px 8px;
+    }
+    .carousel-indicators{
+        display:none;
+    }
+    .display-4{
+        font-size:160%;
+
+    }
+    .social a{
+        font-size:2rem;
+        padding:.7rem;
+    }
+
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
