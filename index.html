@@ -17,29 +17,29 @@
     <!-- A top central navbar, common to all pages-->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="#top"><img src="img/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-linkage" href="index.html">Home</a>
+                        <a class="nav-linkage" href="#top">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-linkage" href="About.html">About</a>
+                        <a class="nav-linkage" href="#about">About Me</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-linkage" href="Projects.html">Projects</a>
+                        <a class="nav-linkage" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-linkage" href="Contact_Me.html">Contact Me</a>
+                        <a class="nav-linkage" href="#contact">Contact Me</a>
                     </li>
                 </ul>"
             </div>
         </div>
     </nav>
-
+    <a id="top"></a>
     <!-- A carousel having links links to different pages of the website, so that it is a bit more convenient for users, especially those on mobile, to access those pages rather than from the navbar, along with some beautiful background images adding to the overall aesthetic.-->
     <div id="slides" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
@@ -52,7 +52,7 @@
             <div class="carousel-item active">
                 <img src="img/img0.jpg">
                 <div class="carousel-caption" style="top:43%;">
-                    <a href="About.html"><img class="circular--square" src="img/self-img.jpg"></a>
+                    <a href="#about"><img class="circular--square" src="img/self-img.jpg"></a>
                     <h2 class="display-2">Hello There!</h2>
                     <h3>I am Abdul Jawad Khan, a Physics Undergraduate in BITS Goa, currently in his first year. I took
                         up Web Development as a hobby, but soon got invested in it. I'm glad you came here!</h3>
@@ -63,7 +63,7 @@
                 <div class="carousel-caption">
                     <h2 class="display-2">About Me</h2>
                     <h3>My skillset, and my CV</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg"><a href="About.html">About</a></button>
+                    <button type="button" class="btn btn-outline-light btn-lg"><a href="#about">About Me</a></button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -71,7 +71,7 @@
                 <div class="carousel-caption">
                     <h2 class="display-2">Projects</h2>
                     <h3>Some of the projects I have been a part of</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg"><a href="Projects.html">My
+                    <button type="button" class="btn btn-outline-light btn-lg"><a href="#projects">My
                             Projects</a></button>
                 </div>
             </div>
@@ -79,13 +79,113 @@
                 <img src="img/img3.jpg">
                 <div class="carousel-caption">
                     <h2 class="display-2">Contact Me</h2>
-                    <h3>A page full of ways to reach me</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg"><a href="Contact_Me.html">Contact
-                            Me</a></button>
+                    <h3>Use the links below to contact me through the respective platforms</h3>
+                    <div class="social col-12 padding">
+                        <a href="https://www.linkedin.com/in/abdul-jawad-khan-52013817b/" target="blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/khanabduljawad" target="blank"><i class="fab fa-github"
+                                style="color:white;"></i></a>
+                        <a href="https://www.facebook.com/khanabduljawad/" target="blank"><i class="fab fa-facebook"
+                                style="color:#3b5998;"></i></a>
+                        <a href="https://www.instagram.com/the_ambiguous_ambivert/" target="blank"><i
+                                class="fab fa-instagram" style="color:#c13584;"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
 
+    </div>
+    <a id="about"></a>
+    <div class="container-fluid padding">
+        <div class="row welcome text-center" style="width:75%; margin:0 auto; padding-top: 2rem;">
+            <div class="col-12">
+
+                <h1 class="display-4">Skill Set</h1>
+
+
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Learning is a constant process, and with all the new developments in a language, one
+                    cannot say that they fully know a language. However, I am proficient in the following languages:</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML</h3>
+                <p>Have a good knowledge of HTML, HTML5</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+
+                <h3>BOOTSTRAP</h3>
+
+                <p>Proficient in working with Bootstrap4</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Knowledgable in CSS3</p>
+            </div>
+            <div class="col-md-12 col-sm-6 col-md-4">
+                <i class="fas fa-cogs"></i>
+                <h3>MATLAB</h3>
+                <p>Proficient in Matlab and Simulink</p>
+            </div>
+            <div class="col-md-12 col-sm-6 col-md-4">
+                <button type="button" class="btn btn-outline-secondary"><a href="#about">CV</a></button>
+            </div>
+
+        </div>
+    </div>
+
+    <a id="projects"></a>
+    <div class="container-fluid padding">
+        <div class="row welcome text-center" style="width:75%; margin:0 auto; padding-top: 2rem;">
+            <div class="col-12">
+
+                <h1 class="display-4">Projects</h1>
+
+
+            </div>
+            <hr class="padding">
+            <div class="col-12">
+                <p class="lead">Here I will showcase and give links to the various projects I will be a part of.</p>
+                <p class="lead">For now, I have none. Thank You!</p>
+
+                <button type="button" class="btn btn-outline-secondary"><a href="#top">Go back to top</a></button>
+
+            </div>
+        </div>
+    </div>
+
+    <a id="contact"></a>
+    <div class="container-fluid padding">
+        <div class="row welcome text-center" style="width:75%; margin:0 auto; padding-top: 2rem;">
+            <div class="col-12">
+
+                <h1 class="display-4">Contact Me</h1>
+
+
+            </div>
+            <hr class="padding">
+            <div class="col-12">
+                <p class="lead">You can reach out to me through these various platforms.</p>
+            </div>
+            <div class="social col-12 padding">
+                <a href="https://www.linkedin.com/in/abdul-jawad-khan-52013817b/" target="blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/khanabduljawad" target="blank"><i class="fab fa-github"
+                        style="color:gray;"></i></a>
+                <a href="https://www.facebook.com/khanabduljawad/" target="blank"><i class="fab fa-facebook"
+                        style="color:#3b5998;"></i></a>
+                <a href="https://www.instagram.com/the_ambiguous_ambivert/" target="blank"><i class="fab fa-instagram"
+                        style="color:#c13584;"></i></a>
+            </div>
+        </div>
     </div>
 
 
