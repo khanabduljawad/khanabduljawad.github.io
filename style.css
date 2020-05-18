@@ -6,6 +6,7 @@ html, body{
     font-family: 'Poppins', sans-serif;
     color:#222;
     overflow:auto;
+    scroll-behavior: smooth;
 }
 .navbar{
     background-color: #9900cc;
@@ -28,10 +29,11 @@ html, body{
     border-radius:50%;
     width:28% !important;
 }
+
+
 .carousel-inner img{
-    height: auto;
+    height: 100%;
     width: 100%;
-    background-size: cover;
 }
 .carousel-caption{
     position:absolute;
